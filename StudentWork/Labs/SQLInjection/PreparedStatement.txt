@@ -1,0 +1,9 @@
+import java.sql.PreparedStatement;
+ 
+Connection c = ConnectionFactory.getConnection();
+
+PreparedStatement pstmt = c.prepareStatement("select EMAIL from MEMBER WHERE USERNAME = ?");
+
+pstmt.setString(1, username);
+
+rs = pstmt.executeQuery();	

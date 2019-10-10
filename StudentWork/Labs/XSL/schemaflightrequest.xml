@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<fr:FlightRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:fr="http://flightnamespace" xsi:schemaLocation="http://flightnamespace flightrequest.xsd"
+	NumberInParty="1" DirectionIndicator="RoundTrip">
+	<fr:PersonName>
+		<fr:GivenName>Mary</fr:GivenName>
+		<fr:MiddleName>C.</fr:MiddleName>
+		<fr:Surname>Goodall</fr:Surname>
+	</fr:PersonName>
+	<fr:FlightInfo>
+		<fr:DepartFromAirport>Dallas International Airport</fr:DepartFromAirport>
+		<fr:DepartureDate>2010-12-24</fr:DepartureDate>
+		<fr:DepartureTime TimeInd="AM">8:00</fr:DepartureTime>
+		<fr:ArriveToAirport>Maui  International Airport</fr:ArriveToAirport>
+	</fr:FlightInfo>
+	<fr:FlightInfo>
+		<fr:DepartFromAirport>Maui International Airport</fr:DepartFromAirport>
+		<fr:DepartureDate>2011-01-10</fr:DepartureDate>
+		<fr:DepartureTime TimeInd="PM">12:00</fr:DepartureTime>
+		<fr:ArriveToAirport>Dallas International Airport</fr:ArriveToAirport>
+	</fr:FlightInfo>
+	<fr:FlightPreference PreferredClass="FirstClass"
+		PreferredAirline="LowestFare" />
+</fr:FlightRequest>

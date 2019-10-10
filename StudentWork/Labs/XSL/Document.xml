@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<cities>
+	<city state="MT">
+		<name>
+		  <official>Bannock</official>
+		  <nickname>Ghost Town</nickname>
+		</name>
+	</city>
+	<city state="ID">
+    <name>
+      <official>Boise</official>
+      <nickname>City of Trees</nickname>
+    </name>
+ 	</city>
+	<city state="WY">
+    <name>
+      <official>Cheyenne</official>
+      <nickname>Wild West</nickname>
+    </name>
+ 	</city>
+	<city state="MT">
+    <name>
+      <official>Butte</official>
+      <nickname>Copper Camp</nickname>
+    </name>
+	</city>
+</cities>

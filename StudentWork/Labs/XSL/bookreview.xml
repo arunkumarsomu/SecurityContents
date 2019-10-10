@@ -1,0 +1,48 @@
+<?xml version="1.0"?>  
+<?xml-stylesheet href="bookreview.css" type="text/css" ?>  
+
+<Book.Review>
+	<Book.Info>
+		<Title>A Civil Campaign</Title>
+		<Author>Lois McMaster Bujold</Author>
+		<Publisher>Baen Books</Publisher>
+		<ISBN number="0-671-87877-8" />
+	</Book.Info>
+	<Review>
+		<Para>
+			In the first Vorkosigan Saga entry after the resolution of Mile's
+			non-military future in
+			<title.cite>Memory</title.cite>
+			, we find the little Vor Lord traveling to Komarr to help unravel the
+			explosion of the terraforming soletta mirror array, after an
+			unexplained collision with an inner-system ship. As Miles untangles
+			the mystery with his usual panache, the book offers deeper pleasures.
+			By the time Miles has solved the mystery and saved the Imperium
+			again, the reader is longing for the next installment of the Saga.
+		</Para>
+		<Para>
+			While this installment of the Saga is not as deeply characterized nor
+			as engrossing as its immediate predecessor, it sets the groundwork
+			for all the future volumes. One can only assume that the next
+			adventures of Miles Vorkosigan will resemble
+			<title.cite>Gaudy Night</title.cite>
+			.
+		</Para>
+		<Para>
+			In any case,
+			<title.cite>Komarr</title.cite>
+			offers it own pleasures, including fluent writing, plausible plot
+			twists, and a range of new characters to act as foils to Miles. The
+			use of alternating viewpoints underscores just how unrelable Miles'
+			own viewpoint is, and offers an intriguing look at Miles from the
+			perspective of a mature, unbiased observer. Among other things,
+			<title.cite>Komarr</title.cite>
+			contains a chilling (and entirely believable) depiction of a bad
+			marriage, which sucks the honor out of its participants, one tedious
+			moment at a time. Run,
+			<shouting>do not walk</shouting>
+			, and get a copy of this book. It is well worth the time an money you
+			will invest in it.
+		</Para>
+	</Review>
+</Book.Review>

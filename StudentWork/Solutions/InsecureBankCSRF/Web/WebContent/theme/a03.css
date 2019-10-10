@@ -1,0 +1,70 @@
+BODY{ 
+  color : black;
+  background-color: #E6E6FF;
+} 
+H1{
+  color : white;
+  text-align: center;
+  border-top-color : navy;
+  border-bottom-color : navy;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  border-style: solid;
+  border-top-width: 4px;
+  border-right-width: 0px;
+  border-bottom-width: 4px;
+  border-left-width: 0px;
+  background-color : navy;
+}
+H2{
+  color : black;
+  text-align: center;
+  border-top-color : blue;
+  border-bottom-color : blue;
+  padding-top: 4px;
+  padding-right: 4px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  border-style: solid;
+  border-top-width: 3px;
+  border-right-width: 0px;
+  border-bottom-width: 3px;
+  border-left-width: 0px;
+}
+H3{
+  color: #666666;
+  text-align: center;
+  border-top-color : blue;
+  border-bottom-color : blue;
+  padding-top: 3px;
+  padding-right: 3px;
+  padding-bottom: 3px;
+  padding-left: 3px;
+  border-style: solid;
+  border-top-width: 2px;
+  border-right-width: 0px;
+  border-bottom-width: 2px;
+  border-left-width: 0px;
+}
+HR{
+  color : navy;
+  height: 3px;
+}
+P{
+  color: #666666;
+}
+UL{
+  color : black;
+  list-style-image : url(l_a03.gif);
+  list-style-position: outside;
+}
+TH{
+  color : white;
+  background-color : navy;
+}
+TD{
+  color : black;
+  background-color : #8080ff;
+}

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<wsdl:definitions targetNamespace="http://webservice.security.trivera.com" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://webservice.security.trivera.com" xmlns:intf="http://webservice.security.trivera.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+ <wsdl:types>
+  <schema elementFormDefault="qualified" targetNamespace="http://webservice.security.trivera.com" xmlns="http://www.w3.org/2001/XMLSchema">
+   <element name="getEmail">
+    <complexType>
+     <sequence>
+      <element name="username" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getEmailResponse">
+    <complexType>
+     <sequence>
+      <element name="getEmailReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="updateEmail">
+    <complexType>
+     <sequence>
+      <element name="username" type="xsd:string"/>
+      <element name="email" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="updateEmailResponse">
+    <complexType>
+     <sequence>
+      <element name="updateEmailReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="getEmailResponse">
+
+      <wsdl:part element="impl:getEmailResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="updateEmailResponse">
+
+      <wsdl:part element="impl:updateEmailResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="updateEmailRequest">
+
+      <wsdl:part element="impl:updateEmail" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getEmailRequest">
+
+      <wsdl:part element="impl:getEmail" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:portType name="EmailManagementServiceImpl">
+
+      <wsdl:operation name="getEmail">
+
+         <wsdl:input message="impl:getEmailRequest" name="getEmailRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:getEmailResponse" name="getEmailResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="updateEmail">
+
+         <wsdl:input message="impl:updateEmailRequest" name="updateEmailRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:updateEmailResponse" name="updateEmailResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="EmailManagementServiceImplSoapBinding" type="impl:EmailManagementServiceImpl">
+
+      <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="getEmail">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="getEmailRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="getEmailResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="updateEmail">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="updateEmailRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="updateEmailResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="EmailManagementServiceImplService">
+
+      <wsdl:port binding="impl:EmailManagementServiceImplSoapBinding" name="EmailManagementServiceImpl">
+
+         <wsdlsoap:address location="http://localhost:8080/WSAttacks/services/EmailManagementServiceImpl"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>

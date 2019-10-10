@@ -1,0 +1,12 @@
+SOAP URL:
+http://www.webservicex.net/uszip.asmx
+
+Example SOAP Message: 
+<?xml version="1.0" encoding="utf-8"?> 
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <GetInfoByZIP xmlns="http://www.webserviceX.NET">
+      <USZip>string</USZip>
+    </GetInfoByZIP>
+  </soap:Body>
+</soap:Envelope>

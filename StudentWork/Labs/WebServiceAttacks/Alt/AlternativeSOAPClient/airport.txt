@@ -1,0 +1,13 @@
+Endpoint:
+http://www.webservicex.com/airport.asmx
+ 
+Example SOAP Message:
+
+<?xml version="1.0" encoding="UTF-8"?> 
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="http://www.webserviceX.NET" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <tns:getAirportInformationByAirportCode>
+         <tns:airportCode>IDA</tns:airportCode>
+      </tns:getAirportInformationByAirportCode>
+   </soap:Body>
+</soap:Envelope>
